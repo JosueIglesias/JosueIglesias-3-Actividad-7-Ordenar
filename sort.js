@@ -9,9 +9,6 @@ for(let i = 0; i < 20; i++){
     v2[i] = ran2
 }
 
-console.log(v1)
-console.log(v2)
-
 v1.sort(function(a,b){ return a-b})
 v2.sort(function(a,b){ return a-b})
 
@@ -56,8 +53,6 @@ while(i < 40){
  
 }
 
-console.log('i1: ' + i1 + ' => ' + v1[i1])
-console.log('i2: ' + i2 + ' => ' + v2[i2])
-
+console.log('----- RESULTADO -----')
 console.log(v3)
 
